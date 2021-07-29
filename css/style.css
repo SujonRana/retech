@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Tahoma, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color: #F5A045;
+}
+li{
+    list-style: none;
+    font-size: 13px;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+/* HEADER AREA START */
+.header_area{
+    background-color: #1C1C1C;
+    padding: 20px 0px;
+    overflow: hidden;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img{
+    width: 55%;
+}
+.menu{
+    width: 50%;
+    float: left;
+}
+.menu ul li{
+    float: left;
+    margin: 10px 10px;
+}
+
+/* ====================================================== */
+.phone_button{
+    width: 30%;
+    overflow: hidden;
+    font-size: 13px;
+}
+.phone_button_right{
+    display: inline-block;
+    float: right;
+}
+.phone_button p{
+    color: rgb(255, 255, 255); 
+    float: left;
+    margin: 8px 25px 0px 0px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.phone_button p i{
+    font-size: 20px;
+    margin-right: 8px;
+}
+.phone_button a{
+    background-color: #F5A045;
+    padding: 10px 20px;
+    display: inline-block;
+}
+.phone_button a:hover{
+    color: black;
+}
+/* ================================================ */
+.header_banner_area .header_banner_left{
+    background-color: #8d8d8d;
+    text-align: center;
+    width: 95%;
+    padding: 185px 0px;
+    float: left;
+    color: white;
+}
+.header_banner_area .header_banner_left p{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header_banner_area .header_banner_left h2{
+    font-size: 55px;
+    font-weight:bold ;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header_banner_area .header_banner_left h5{
+    font-size: 22px;
+    font-weight: 500;
+    margin: 30px 0px;
+}
+.header_banner_area .header_banner_left a{
+    font-size: 15px;
+    padding: 15px 25px;
+    background-color: #F5A045;
+    display: inline-block;
+    border-radius: 25px;
+}
+.header_banner_area .header_banner_left a:hover{
+    color: black;
+}
+
+
+
+
+
+
+.header_banner_area .header_banner_right{
+    background-color: #1C1C1C;
+    color: white;
+    width: 5%;
+    padding: 200.5px 0px;
+    overflow: hidden;
+}
+.header_banner_area .header_banner_right p{
+writing-mode: vertical-lr;
+transform: rotateZ(180deg);
+color: #7B7F81;
+font-size: 15px;
+margin-left: 20px;
+
+}
+.header_banner_area .header_banner_right p .ins{
+    color: #F5A045;
+    
+    }
